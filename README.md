@@ -1,18 +1,6 @@
 # AgentGreg 🤖
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/jkeith10/AgentGreg/main/next/public/banner.png" height="300" alt="AgentGreg Logo"/>
-  
-  <p>
-    <strong>Configure and deploy Autonomous AI agents in your browser</strong>
-  </p>
 
-  <p>
-    <a href="https://github.com/jkeith10/AgentGreg/blob/master/README.md"><img src="https://img.shields.io/badge/lang-English-blue.svg" alt="English"></a>
-    <a href="https://github.com/jkeith10/AgentGreg/blob/master/docs/README.zh-HANS.md"><img src="https://img.shields.io/badge/lang-简体中文-red.svg" alt="简体中文"></a>
-    <a href="https://github.com/jkeith10/AgentGreg/blob/master/docs/README.hu-Cs4K1Sr4C.md"><img src="https://img.shields.io/badge/lang-Hungarian-red.svg" alt="Hungarian"></a>
-  </p>
-</div>
 
 ## Overview
 
