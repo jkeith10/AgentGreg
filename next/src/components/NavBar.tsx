@@ -18,10 +18,10 @@ import PricingIcon from "../../public/icons/icon-pricing.svg";
 const navigation = [
   { name: "Home", href: "/home", icon: <HomeIcon /> },
   { name: "Blog", href: "/blog", icon: <BlogsIcon /> },
-  { name: "Pricing", href: "https://agentgpt.reworkd.ai/plan", icon: <PricingIcon /> },
+  { name: "Pricing", href: "https://github.com/jkeith10/AgentGreg/blob/main/docs/pricing.md", icon: <PricingIcon /> },
   {
     name: "Github",
-    href: "https://github.com/reworkd/AgentGPT",
+    href: "https://github.com/reworkd/AgentGreg",
     icon: <GithubIcon />,
   },
   { name: "Docs", href: "https://reworkd.ai/docs", icon: <DocsIcon /> },

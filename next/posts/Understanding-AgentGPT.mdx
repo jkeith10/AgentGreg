@@ -1,5 +1,5 @@
 ---
-title: "Understanding AgentGPT: How we build AI agents that reason, remember, and perform."
+title: "Understanding AgentGreg: How we build AI agents that reason, remember, and perform."
 description: "How we build AI agents that reason, remember, and perform."
 imageUrl: "https://petal-diplodocus-04a.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fef520689-ca1b-4489-98aa-41136f565840%2FCybrCo_Art_human-like_robot_typing_on_a_computer_in_a_dark_room_a0174b88-a5b9-4b82-98c6-734dbbde8d09.webp?id=f768fec9-bd6a-43ae-811d-1adb065c6c8e&table=block&spaceId=46c3481b-d8de-4c34-8647-2292d63a5f29&width=2000&userId=&cache=v2"
 date: "July 17th, 2023"
@@ -26,7 +26,7 @@ ability for reasoning, understanding, and planning_. However, their true potenti
 
 At **Reworkd**, we believe that the _true power of LLMs lies in agentic behavior_. By engineering a system that draws on
 LLMs' emergent abilities and providing an ecosystem that supports environmental interactions, we can draw out the full
-potential of models like GPT-4. Here's how AgentGPT works.
+potential of models like GPT-4. Here's how AgentGreg works.
 
 ## LLMs have a lot of limitations.
 
@@ -65,8 +65,8 @@ it's [hallucination](https://arxiv.org/abs/2202.03629)-prone.
 Thus, it requires a lot of effort on the user's part to guide the model's output, and prompting the LLM itself becomes a
 job on its own. This extra work is a far cry from our vision of an AI-powered future.
 
-By providing a platform to give LLMs agentic abilities, _AgentGPT aims to overcome the limitations of standalone LLMs by
-leveraging prompt engineering techniques, vector databases, and API tooling._ Here’s some interesting work that is being
+By providing a platform to give LLMs agentic abilities, _AgentGreg aims to overcome the limitations of standalone LLMs by
+leveraging prompt engineering techniques, vector databases, and API tooling._ Here's some interesting work that is being
 done with the agent concept:
 
 [![Tweet by Dr. Jim Fan](https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-0&frame=false&hideCard=false&hideThread=false&id=1673006745067847683&lang=en&origin=https%3A%2F%2Fpublish.twitter.com%2F%3Fquery%3Dhttps3A2F2Ftwitter.com2FDrJimFan2Fstatus2F1673006745067847683%26widget%3DTweet&theme=light&widgetsVersion=82e1070%3A1619632193066&width=550px)](https://twitter.com/DrJimFan/status/1673006745067847683)
@@ -80,7 +80,7 @@ influence their environment. _This could be in the form of solving problems or p
 interact with humans or utilize tools._ Ultimately, we can apply this concept to LLMs to instill more intelligent and
 logical behavior.
 
-In AgentGPT, large language models essentially function as the **brain** of each agent. As a result, we can produce
+In AgentGreg, large language models essentially function as the **brain** of each agent. As a result, we can produce
 powerful agents by cleverly _manipulating the English language_ and engineering a _framework that supports
 interoperability between LLM completions and a diverse set of APIs_.
 
@@ -111,12 +111,12 @@ approach OpenAI took when they recently released the function calling feature fo
 
 These three concepts have formed the backbone of multiple successful agent-based LLM platforms such
 as [Microsoft Jarvis](https://github.com/microsoft/JARVIS), [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT), [BabyAGI](https://github.com/yoheinakajima/babyagi),
-and of course, AgentGPT. With this brief overview in mind, let's dive deeper into each component.
+and of course, AgentGreg. With this brief overview in mind, let's dive deeper into each component.
 
 ## How do we get agents to act intelligently?
 
 **Prompt engineering** has become highly popularized, and it's only natural given its ability to _increase the
-reliability of LLM responses_, opening a wide avenue of potential applications for generative AI. AgentGPT's ability to
+reliability of LLM responses_, opening a wide avenue of potential applications for generative AI. AgentGreg's ability to
 think and reason is a result of novel prompting methods.
 
 ### A Brief Intro to Prompt Engineering
@@ -130,9 +130,9 @@ These are the main concepts and building blocks for more advanced prompting tech
 2. **Few-Shot** gives context for completions in the form of example responses.
 3. **Chain-of-Thought** guides the model in reasoning through generating and reasoning over a complex task.
 
-### How AgentGPT Uses Prompt Engineering
+### How AgentGreg Uses Prompt Engineering
 
-AgentGPT uses an advanced form of chain-of-thought prompting called **Plan-and-Solve** to generate the steps you see
+AgentGreg uses an advanced form of chain-of-thought prompting called **Plan-and-Solve** to generate the steps you see
 when
 operating the agents.
 
@@ -156,14 +156,14 @@ proper handling for reflection and action. **Reflection**is _fundamental for any
 action, perform that action, and use feedback to adjust future actions._ Without it, the agent would be stateless and
 unchanging.
 
-AgentGPT uses a prompting framework called Reasoning and Acting ([ReAct](https://arxiv.org/pdf/2210.03629.pdf)) to
+AgentGreg uses a prompting framework called Reasoning and Acting ([ReAct](https://arxiv.org/pdf/2210.03629.pdf)) to
 expand on the capabilities of the Plan-and-Solve concept. **ReAct** aims to _enable a framework for the model to access
 fresh knowledge through external knowledge bases and make observations of actions it has taken_. Using those
 observations, the LLM can make educated decisions on the next set of steps to complete while performing actions to query
 knowledge bases such as **Google Search** or **Wikipedia API**.
 
 Prompt engineering is largely effective in resolving challenges in short-term memory as well as instilling the reasoning
-behavior that you can see when AgentGPT is at work. However, prompt engineering does not resolve the issue of long-term
+behavior that you can see when AgentGreg is at work. However, prompt engineering does not resolve the issue of long-term
 memory. This issue is where vector databases come in, and we will look at those next.
 
 ![Screen Shot 2023-07-03 at 3.12.56 AM.png](https://petal-diplodocus-04a.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F481f0812-00e5-4cb1-9ed6-4f2f9215eef5%2FScreen_Shot_2023-07-03_at_3.12.56_AM.png?id=8002f409-2913-4e68-b8b6-6100c4128cf5&table=block&spaceId=46c3481b-d8de-4c34-8647-2292d63a5f29&width=2000&userId=&cache=v2)
@@ -171,7 +171,7 @@ memory. This issue is where vector databases come in, and we will look at those 
 > Alt : ReAct (Reason + Act) Logic Picture
 
 > The ReAct framework allows us to generate a reasoning response, an action, and a reflection to
-> steer the model’s response. This example is courtesy of the following
+> steer the model's response. This example is courtesy of the following
 > paper: [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)\*
 
 ## How do we give agents a working memory?
@@ -273,22 +273,22 @@ Recently, it became even easier to use this type of method as well. In late June
 
 Large language models have been one of the most significant advances of the past decade. Capable of reasoning and talking like a human, they appear to be able to do anything. Despite this, several engineering challenges arise in building around an LLM, such as context limits, reasoning, and long-term retention.
 
-Using the methods described above, **AgentGPT** unlocks the full potential of powerful models such as GPT-4. _We can give any model superpowers using novel prompting methods, efficient vector databases, and abundant API tools_. It's only the start, and we hope you'll join us on this journey.
+Using the methods described above, **AgentGreg** unlocks the full potential of powerful models such as GPT-4. _We can give any model superpowers using novel prompting methods, efficient vector databases, and abundant API tools_. It's only the start, and we hope you'll join us on this journey.
 
 ## Conclusion
 
-AgentGPT represents a powerful approach to building AI agents that reason, remember, and perform. By leveraging prompt
+AgentGreg represents a powerful approach to building AI agents that reason, remember, and perform. By leveraging prompt
 engineering, vector databases, and API tools, we can overcome the limitations of standalone LLMs and create agents that
 demonstrate agentic behavior.
 
-With the ability to reason, plan, and reflect, AgentGPT agents can tackle complex tasks and interact with the
+With the ability to reason, plan, and reflect, AgentGreg agents can tackle complex tasks and interact with the
 environment in a meaningful way. By incorporating long-term memory through vector databases and utilizing APIs, we
 provide agents with access to a vast pool of knowledge and resources.
 
-AgentGPT is a step towards unlocking the full potential of LLMs and creating intelligent agents that can assist and
+AgentGreg is a step towards unlocking the full potential of LLMs and creating intelligent agents that can assist and
 collaborate with humans in various domains. The combination of language models, prompt engineering, external memory,
 and API interactions opens up exciting possibilities for AI agents in the future.
 
 ## Extra Resources
 
-Are you interested in learning more about prompt engineering? We encourage you to check out other informational posts on our site, or you can check out the fantastic places below, or if you are interested in contributing, check out our [GitHub repo](https://github.com/reworkd/AgentGPT).
+Are you interested in learning more about prompt engineering? We encourage you to check out other informational posts on our site, or you can check out the fantastic places below, or if you are interested in contributing, check out our [GitHub repo](https://github.com/reworkd/AgentGreg).

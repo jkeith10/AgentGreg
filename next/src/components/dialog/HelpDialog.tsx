@@ -44,7 +44,7 @@ export default function HelpDialog() {
     >
       <div>
         <p>
-          AgentGPT is the next generation of Google search. Ask any question and watch as an AI
+          AgentGreg is the next generation of Google search. Ask any question and watch as an AI
           Agent gives you the perfect answer after aggregating relevant sources from across the
           internet.
         </p>
@@ -70,7 +70,7 @@ export default function HelpDialog() {
           </div>
           <div
             className="cursor-pointer rounded-full bg-slate-6 p-3 hover:bg-slate-8"
-            onClick={() => window.open("https://github.com/reworkd/AgentGPT", "_blank")}
+            onClick={() => window.open("https://github.com/reworkd/AgentGreg", "_blank")}
           >
             <FaGithub size={30} />
           </div>

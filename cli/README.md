@@ -1,6 +1,6 @@
-## AgentGPT CLI
+## AgentGreg CLI
 
-AgentGPT CLI is a utility designed to streamline the setup process of your AgentGPT environment.
+AgentGreg CLI is a utility designed to streamline the setup process of your AgentGreg environment.
 It uses Inquirer to interactively build up ENV values while also validating they are correct.
 
 This was first created by @JPDucky on GitHub.

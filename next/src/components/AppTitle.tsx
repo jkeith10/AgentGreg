@@ -12,7 +12,7 @@ const AppTitle = () => {
             textShadow: "0px 5px 5px rgba(0, 0, 0, 0.1)",
           }}
         >
-          AgentGPT
+          AgentGreg
         </span>
       </div>
       <div className="mt-3 text-center font-mono text-[0.7em] font-bold text-white">

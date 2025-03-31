@@ -46,7 +46,7 @@ export const PAGE_LINKS: LinkMetadata[] = [
 export const SOCIAL_LINKS: LinkMetadata[] = [
   {
     name: "Github",
-    href: "https://github.com/reworkd/AgentGPT",
+    href: "https://github.com/reworkd/AgentGreg",
     icon: FaGithub,
   },
   {

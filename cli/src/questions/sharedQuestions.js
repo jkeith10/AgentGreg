@@ -5,6 +5,6 @@ export const RUN_OPTION_QUESTION = {
     { value: "docker-compose", name: "🐋 Docker-compose (Recommended)" },
     { value: "manual", name: "💪 Manual (Not recommended)" },
   ],
-  message: 'How will you be running AgentGPT?',
+  message: 'How will you be running AgentGreg?',
   default: "docker-compose",
 }

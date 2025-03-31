@@ -4,14 +4,14 @@ import figlet from "figlet";
 export const printTitle = () => {
   console.log(
     chalk.red(
-      figlet.textSync("AgentGPT", {
+      figlet.textSync("AgentGreg", {
         horizontalLayout: "full",
         font: "ANSI Shadow",
       })
     )
   );
   console.log(
-    "Welcome to the AgentGPT CLI! This CLI will generate the required .env files."
+    "Welcome to the AgentGreg CLI! This CLI will generate the required .env files."
   );
   console.log(
     "Copies of the generated envs will be created in `./next/.env` and `./platform/.env`.\n"

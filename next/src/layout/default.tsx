@@ -19,19 +19,19 @@ const DefaultLayout = (props: LayoutProps) => {
       )}
     >
       <Head>
-        <title>AgentGPT</title>
+        <title>AgentGreg</title>
         <meta name="description" content={description} />
-        <meta name="twitter:site" content="@AgentGPT" />
+        <meta name="twitter:site" content="@AgentGreg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AgentGPT 🤖" />
+        <meta name="twitter:title" content="AgentGreg 🤖" />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content="https://agentgpt.reworkd.ai/banner.png" />
+        <meta name="twitter:image" content="https://raw.githubusercontent.com/jkeith10/AgentGreg/main/next/public/banner.png" />
         <meta name="twitter:image:width" content="1280" />
         <meta name="twitter:image:height" content="640" />
-        <meta property="og:title" content="AgentGPT: Autonomous AI in your browser 🤖" />
+        <meta property="og:title" content="AgentGreg: Autonomous AI in your browser 🤖" />
         <meta property="og:description" content={description} />
-        <meta property="og:url" content="https://agentgpt.reworkd.ai/" />
-        <meta property="og:image" content="https://agentgpt.reworkd.ai/banner.png" />
+        <meta property="og:url" content="https://github.com/jkeith10/AgentGreg" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/jkeith10/AgentGreg/main/next/public/banner.png" />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="640" />
         <meta property="og:type" content="website" />
